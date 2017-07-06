@@ -1,4 +1,4 @@
-Small hobby Arduino/ROS project. Mainly for keeping references of how to setup the development environment
+Small hobby Arduino/ROS project. Mainly for keeping references of how to setup the development environment (terminal-based: vim, platformio command line tool, ROS)
 
 ## Hardware 
 
