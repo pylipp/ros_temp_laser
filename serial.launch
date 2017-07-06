@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="laser_temperature" type="serial_node.py" pkg="rosserial_python" output="screen" args="/dev/ttyUSB0"/>
+</launch>
