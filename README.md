@@ -23,11 +23,15 @@ Prepare serial port reading
 
 Install udev rules file
 
-    sudo wget https://raw.githubusercontent.com/platformio/platformio-core/develop/scripts/99-platformio-udev.rules /etc/udev/rules.d/99-platformio-udev.rules
+    wget -qO- https://raw.githubusercontent.com/platformio/platformio-core/develop/scripts/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules > /dev/null
 
 Create empty project dir or clone
 
     platformio init -b nanoatmega328 --ide vim
+
+## Vim-related setup procedure
+
+Download `.ycm_extra_conf.py`, see [the docs](http://docs.platformio.org/en/latest/ide/vim.html)
 
 ## Workflow
 
